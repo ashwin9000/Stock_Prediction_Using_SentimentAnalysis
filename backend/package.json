@@ -1,0 +1,51 @@
+{
+  "name": "fintweet-backend",
+  "version": "1.0.0",
+  "description": "Backend API for FinTweet Financial Sentiment Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "test": "jest",
+    "create-demo-user": "node scripts/createDemoUser.js",
+    "add-sample-stocks": "node scripts/addSampleStocks.js",
+    "fetch-stock-data": "node scripts/fetchStockData.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "socket.io": "^4.7.2",
+    "axios": "^1.5.0",
+    "node-cron": "^3.0.2",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "express-validator": "^7.0.1",
+    "multer": "^1.4.5-lts.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.2",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "financial",
+    "sentiment",
+    "tweets",
+    "stock",
+    "dashboard",
+    "mern"
+  ],
+  "author": "FinTweet Team",
+  "license": "MIT"
+}

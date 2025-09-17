@@ -1,0 +1,13 @@
+ps tasks/
+tweet-agent/
+ml-classifier/
+backend/node_modules/
+frontend/node_modules/
+ml-classifier/venv/
+tweet-agent/venv/
+backend/venv/
+frontend/venv/
+backend/logs/
+frontend/logs/
+ml-classifier/logs/
+tweet-agent/logs/

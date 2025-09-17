@@ -1,0 +1,15 @@
+date,symbol,
+# Stock Features (last 3 days)
+stock_close_t-3,stock_close_t-2,stock_close_t-1,
+stock_volume_t-3,stock_volume_t-2,stock_volume_t-1,
+stock_change_t-3,stock_change_t-2,stock_change_t-1,
+# DJIA Features (last 3 days)
+djia_close_t-3,djia_close_t-2,djia_close_t-1,
+djia_change_t-3,djia_change_t-2,djia_change_t-1,
+# Tweet Features (last 3 days)
+sentiment_t-3,sentiment_t-2,sentiment_t-1,
+market_impact_t-3,market_impact_t-2,market_impact_t-1,
+positive_tweets_t-3,positive_tweets_t-2,positive_tweets_t-1,
+negative_tweets_t-3,negative_tweets_t-2,negative_tweets_t-1,
+# Target Variable
+next_day_close
