@@ -1,6 +1,7 @@
 ps tasks/
 tweet-agent/
 ml-classifier/
+ppts/
 backend/node_modules/
 frontend/node_modules/
 ml-classifier/venv/
